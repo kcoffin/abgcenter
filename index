@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>American Beauty Garden Center</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Header -->
+    <header>
+        <div class="header-img-container">
+            <img src="https://img1.wsimg.com/isteam/ip/37901b4e-fbb3-4b71-b530-04ef8af1fb3f/logo/5f70f684-712d-4973-a022-e77efd30fbf6.png/:/rs=h:80,cg:true,m/qt=q:95" alt="">
+        </div>
+        <div class="nav-container">
+            <nav>
+                <ul>
+                    <li><a href="#"><span>abgc home</span></a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">CBD</a></li>
+                    <li><a href="#">Loyalty Program</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Hours of operation -->
+    <section class="operation-hours">
+        <div class="hours-div">
+            <p>(704) 334-8651</p>
+            <br>
+            <p>Our hours are:
+            <br>
+            <p>10-8 Mon-Sat</p> 
+            <p>12-6 Sunday</p>
+            <div class="button">
+                <a href="#"><button class="sales-button">Current Sales</button></a>
+            </div>
+            
+        </div>
+    </section>
+    
+    <!-- About us -->
+    <section class="about-us">
+        <h2>About Us</h2>
+        <div class="flex-container-about">
+            <!-- <div class="flex-box"> -->
+                <div class="flex-box1">
+                    <!-- <div class="content-div1"> -->
+                        <h3>Indoor & Outdoor Gardening</h3>
+                        <p>Hydroponics, Organics, Grow Lights from Seed to Sale, we have it all!</p>
+                    <!-- </div> -->
+                </div>
+                <div class="flex-box2">
+                    <h3>Custom Grow Room Design</h3>
+                    <p>We have something to improve every Garden, Grow Room, Farm and Warehouse</p>
+                </div>
+                <div class="flex-box3">
+                    <h3>Extraction</h3>
+                    <p>Contact us about our custom extraction services, equipment and classes.</p>
+                    <a href="#"><button>Buy CBD Now</button></a>
+                </div>
+            <!-- </div> -->
+        </div>
+    </section>
+
+    <!-- Subscribe section -->
+    <section>
+        <div class="subscribe-div">
+            <h2>Subscribe</h2>
+            <p>Sign up to hear from us about specials, sales, and events on grow room supplies and hydroponic equipment. We can help from basic to professional organic and hydroponics equipment grow room setup!</p>
+            <form action="">
+
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact-section">
+        <div class="flex-container-contact">
+            <div class="flex-box-contact">
+                <h2>Conctact Us</h2>
+                <h3>Better yet, see us in person!</h3>
+                <p>American Beauty Garden Center is open 7 days a week to make you a successful gardener!</p>
+                <h3>American Beauty Garden Center</h3>
+                <p><address>4400 E. Independence Blvd, Charlotte, NC 28205, US</address></p>
+                <p class="contact-number">(704) 334-8651</p>
+                <h3>Store Hours</h3>
+                <p>   </p>
+                <button class="cta-button">Drop Us a Line!</button>
+            </div>
+            <div class="flex-box-map">
+                <img src="" alt="">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Social Section -->
+    <section class="social-section">
+        <div class="social-div">
+            <h3>Social</h3>
+            <!-- icon -->
+            <!-- icon -->
+            <!-- icon -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright: 2020 American Beauty Garden Center - All Rights Reserved.</p> 
+        <a href="#">Sales</a>
+    </footer>
+</body>
+</html>
