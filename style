@@ -1,0 +1,131 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+h2 {
+    
+}
+
+h3 {
+    color: white;
+    font-size: 24px;
+}
+
+.header-img-container {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav-container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+nav span {
+    text-transform: uppercase;
+    color: rgb(0, 141, 85)n;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    list-style: none;
+}
+
+.operation-hours {
+    background-image: url(https://i.pinimg.com/originals/db/63/83/db63837bb23016053426329efda7147b.jpg);
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+
+}
+
+.hours-div {
+    background-color: white;
+    opacity: 0.8;
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    font-size: 24px;
+    padding: 40px;
+}
+
+.operation-hours button {
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(0, 141, 85);
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    opacity: 1;
+}
+
+.about-us h2 {
+    color:rgb(0, 141, 85)
+    font-size: 24px;
+    text-align: center;
+}
+
+.flex-container-about {
+    display: flex;
+    flex-direction: row;
+    padding: 0 60px;
+    margin: 40px 0;
+} 
+
+.flex-box1 {
+    background-image: url(https://www.nybg.org/content/uploads/2021/07/MCO-A9_05159_16.9-scaled.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 350px;
+    flex-grow: 1;
+    display: table-cell;
+    position: relative;
+    background-position: center center;
+
+}
+
+/* .content-div1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: min-content;
+} */
+
+
+.flex-box2 {
+    background-image: url(https://www.miraclegro.com/sites/g/files/oydgjc111/files/styles/scotts_asset_image_720_440/public/asset_images/080317_MW_1412-x1080.jpg?itok=1LFAcmlG);
+    background-size: cover;
+    height: 400px;
+    width: 350px;
+    flex-grow: 1;
+    text-align: center;
+    background-position: center center;
+
+
+}
+
+.flex-box3 {
+    background-image: url(https://www.gannett-cdn.com/-mm-/472cc9fa7eb35c7d280b8f17142b7abb86d14f7d/c=0-428-4456-2946/local/-/media/2018/04/25/USATODAY/USATODAY/636602450709427790-XXX-tdl-032-.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 350px;
+    flex-grow: 1;
+    text-align: center;
+    background-position: bottom center;
+
+}
