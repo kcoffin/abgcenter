@@ -16,9 +16,9 @@
         </div>
         <nav>
             <div class="nav-container">
-                <button><a href="#">ABGC Home</a></button>
+                <button class="home-button"><a href="#">ABGC Home</a></button>
                 <div class="event-dropdown">
-                    <button>Events</button>
+                    <button class="event-button">Events</button>
                         <ul>
                             <li><a href="#">Classes</a></li>
                             <li><a href="#">Sales</a></li>
