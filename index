@@ -14,16 +14,20 @@
         <div class="header-img-container">
             <img src="https://img1.wsimg.com/isteam/ip/37901b4e-fbb3-4b71-b530-04ef8af1fb3f/logo/5f70f684-712d-4973-a022-e77efd30fbf6.png/:/rs=h:80,cg:true,m/qt=q:95" alt="">
         </div>
-        <div class="nav-container">
-            <nav>
-                <ul>
-                    <li><a href="#"><span>abgc home</span></a></li>
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#">CBD</a></li>
-                    <li><a href="#">Loyalty Program</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav>
+            <div class="nav-container">
+                <button><a href="#">ABGC Home</a></button>
+                <div class="event-dropdown">
+                    <button>Events</button>
+                        <ul>
+                            <li><a href="#">Classes</a></li>
+                            <li><a href="#">Sales</a></li>
+                        </ul>
+                </div>
+                <button><a href="#">CBD</a></button>
+                <button><a href="#">Loyalty Program</a></button>
+            </div>
+        </nav>      
     </header>
     
     <!-- Hours of operation -->
