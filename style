@@ -1,10 +1,12 @@
 * {
     margin: 0 auto;
     box-sizing: border-box;
+    padding: 0;
+    font-family: arial, sans-serif;
 }
 
 h2 {
-    
+    font-size: 32px;
 }
 
 h3 {
@@ -15,14 +17,37 @@ h3 {
 .header-img-container {
     text-align: center;
     padding: 10px 0;
+    margin-top: 40px;
+}
+
+
+.home-button a {
+    color:rgb(0, 141, 85);
+    font-weight: bold;
+
+}
+
+header button {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    
 }
 
 .nav-container {
     display: flex;
-    width: 40%;
-    height: 10vh;
+    width: 30%;
+    height: 5vh;
     justify-content: space-around;
     align-items: center;
+    margin: auto;
+}
+
+.event-dropdown {
+    position: relative;
+
 }
 
 .nav-container ul {
@@ -34,9 +59,48 @@ h3 {
     position: absolute;
 }
 
+header a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+header a:hover {
+    color:rgb(0, 141, 85);
+}
+
+
 ul a {
     position: absolute;
     left: 0;
+    text-decoration: none;
+    padding: 0 5px;
+    
+}
+
+.event-dropdown ul {
+    background-color: white;
+    width: 100%;
+    box-shadow: 5px 10px 18px #888888;
+    padding: 10px;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: 0.4s;
+}
+
+.event-dropdown li {
+    padding: 15px 0;
+
+}
+
+.event-button:hover {
+    color: rgb(0, 141, 85);
+}
+
+.event-dropdown button:focus + ul {
+  opacity: 1;
+  pointer-events: all;
+  transform: translateY(0px);
 }
 
 
@@ -96,13 +160,6 @@ ul a {
     background-position: center center;
 
 }
-
-/* .content-div1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    height: min-content;
-} */
 
 
 .flex-box2 {
